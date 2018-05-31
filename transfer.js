@@ -3,7 +3,7 @@ var cron = require('node-cron');
 
 cron.schedule('* * * * *', function() {
 
-steem.api.getAccounts(['boostme'], function(err, result){
+steem.api.getAccounts(['your-account'], function(err, result){
 			console.log(err, result)
 			let sbdReward = result[0].reward_sbd_balance
 			let steemReward = result[0].reward_steem_balance
