@@ -17,7 +17,7 @@ steem.api.getAccounts(['your-account'], function(err, result){
 var wif = 'your-active-key'
 var from = 'my-account'
 var to = 'another-account'
-var memo = '100.000 SBD'
+var amount = '100.000 SBD'
 var memo = 'memo'
 
 steem.broadcast.transfer(wif, from, to, amount, memo, function(err, result) {
