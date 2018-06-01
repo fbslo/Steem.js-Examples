@@ -24,4 +24,4 @@ steem.broadcast.transfer(wif, from, to, amount, memo, function(err, result) {
  console.log(err, result);
 });
 
-}
+})
